@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.click(${1:function(${2:event}) {
-	${0:// Act on the event; can use $(event.target)}
-\}});</string>
+	<string>\$.each(${1:container}, function(index) {
+	${0:this.innerHTML = this + " is the element, " + index + " is the position";}
+})</string>
 	<key>name</key>
-	<string>click</string>
+	<string>$.each array</string>
 	<key>scope</key>
 	<string>source.js.jquery</string>
 	<key>tabTrigger</key>
-	<string>.click</string>
+	<string>$.each</string>
 	<key>uuid</key>
-	<string>CCE08A0D-D536-4CAF-8BD5-E568342198F4</string>
+	<string>0DB136BC-431F-419F-B4DC-35F2A1145A87</string>
 </dict>
 </plist>
